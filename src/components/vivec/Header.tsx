@@ -3,12 +3,12 @@ import { Mail, Phone, User, Search, Menu, X, ChevronDown } from "lucide-react";
 import logo from "@/assets/vivec-logo.png";
 
 const navLinks = [
-  { label: "Home", hasMenu: false },
-  { label: "About Us", hasMenu: true },
-  { label: "Programs", hasMenu: true },
-  { label: "Admissions", hasMenu: false },
-  { label: "Resources", hasMenu: true },
-  { label: "Contact Us", hasMenu: false },
+  { label: "Home", href: "#", hasMenu: false },
+  { label: "About Us", href: "#about", hasMenu: true },
+  { label: "Programs", href: "#programs", hasMenu: true },
+  { label: "Admissions", href: "#admissions", hasMenu: false },
+  { label: "Resources", href: "#resources", hasMenu: true },
+  { label: "Contact Us", href: "#contact", hasMenu: false },
 ];
 
 export function Header() {
@@ -62,7 +62,7 @@ export function Header() {
           <ul className="flex items-center">
             {navLinks.map((l, idx) => (
               <li key={l.label} className="flex items-center">
-                <a href="#" className="flex items-center gap-1 px-5 py-4 text-sm font-semibold hover:bg-black/10 transition-colors">
+                <a href={l.href} className="flex items-center gap-1 px-5 py-4 text-sm font-semibold hover:bg-black/10 transition-colors">
                   {l.label}
                   {l.hasMenu && <ChevronDown size={14} />}
                 </a>
@@ -84,7 +84,7 @@ export function Header() {
           <ul className="flex flex-col">
             {navLinks.map((l) => (
               <li key={l.label} className="border-b border-white/10">
-                <a href="#" className="block px-4 py-3 text-sm font-semibold">{l.label}</a>
+                <a href={l.href} className="block px-4 py-3 text-sm font-semibold" onClick={() => setOpen(false)}>{l.label}</a>
               </li>
             ))}
           </ul>

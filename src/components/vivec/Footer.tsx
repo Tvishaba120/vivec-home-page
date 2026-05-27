@@ -9,7 +9,7 @@ const cols = [
 
 export function Footer() {
   return (
-    <footer className="bg-white py-16 border-t border-neutral-200">
+    <footer id="contact" className="bg-white py-16 border-t border-neutral-200">
       <div className="max-w-7xl mx-auto px-4 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-10">
         {cols.map((c) => (
           <div key={c.title}>

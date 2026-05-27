@@ -9,7 +9,7 @@ const courses = [
 
 export function StudyCourses() {
   return (
-    <section className="py-20 bg-neutral-50">
+    <section id="programs" className="py-20 bg-neutral-50">
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-12">
           <div className="text-brand-green text-sm font-bold tracking-widest mb-3">UNIQUE FEATURES OF OUR PROGRAMS</div>
