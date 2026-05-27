@@ -16,7 +16,7 @@ export function SuccessStories() {
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-12">
           <div className="text-brand-green text-sm font-semibold tracking-widest mb-3 uppercase">OUR CAMPUS HAS A LOT TO OFFER FOR OUR STUDENTS</div>
-          <h2 className="text-4xl md:text-5xl font-semibold uppercase" style={{ color: "#1A1A1A" }}>OUR SUCCESS STORIES</h2>
+          <h2 className="text-3xl md:text-5xl font-bold uppercase" style={{ color: "#0F2942" }}>OUR SUCCESS STORIES</h2>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-4 auto-rows-[180px] gap-3">
           <img src={photos[0]} alt="" className="col-span-1 row-span-2 w-full h-full object-cover rounded-lg" />

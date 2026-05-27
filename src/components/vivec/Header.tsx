@@ -44,10 +44,10 @@ export function Header() {
         </div>
 
         <div className="hidden md:flex items-center gap-3">
-          <button className="flex items-center gap-2 px-4 py-2 border border-brand-text/20 rounded-md text-sm font-semibold hover:bg-brand-text hover:text-white transition-colors">
-            <User size={16} /> Student Login
+          <button className="flex items-center gap-2 px-5 py-2.5 border border-[#D76B38] rounded-lg text-sm font-semibold text-[#D76B38] hover:bg-[#D76B38] hover:text-white transition-all">
+            <User size={18} /> Student Login
           </button>
-          <button className="px-5 py-2 rounded-md text-sm font-bold text-white bg-brand-orange hover:brightness-110 transition">
+          <button className="px-6 py-2.5 rounded-lg text-sm font-bold text-white bg-[#D76B38] hover:brightness-110 shadow-sm transition">
             DONATE
           </button>
         </div>
@@ -58,24 +58,24 @@ export function Header() {
       </div>
 
       {/* Row 2 — green nav */}
-      <nav className="bg-brand-green text-white hidden lg:block">
-        <div className="max-w-7xl mx-auto px-4 flex items-center justify-between">
-          <ul className="flex items-center">
+      <nav className="bg-brand-green text-white hidden lg:block border-t border-white/10">
+        <div className="max-w-7xl mx-auto px-4 flex items-center justify-between h-[52px]">
+          <ul className="flex items-center h-full">
             {navLinks.map((l, idx) => (
-              <li key={l.label} className="flex items-center">
-                <a href={l.href} className="flex items-center gap-1 px-5 py-4 text-sm font-semibold hover:bg-black/10 transition-colors">
+              <li key={l.label} className="flex items-center h-full">
+                <a href={l.href} className="flex items-center gap-1 px-6 h-full text-sm font-semibold hover:bg-black/10 transition-colors">
                   {l.label}
                   {l.hasMenu && <ChevronDown size={14} />}
                 </a>
-                {idx < navLinks.length - 1 && (
-                  <div className="h-4 w-[1px] bg-white/30" aria-hidden="true" />
-                )}
+                <div className="h-full w-[1px] bg-white/20" aria-hidden="true" />
               </li>
             ))}
           </ul>
-          <button className="p-2 hover:bg-black/10 rounded" aria-label="search">
-            <Search size={18} />
-          </button>
+          <div className="flex items-center h-full">
+            <button className="px-5 h-full hover:bg-black/10 transition-colors" aria-label="search">
+              <Search size={18} />
+            </button>
+          </div>
         </div>
       </nav>
 

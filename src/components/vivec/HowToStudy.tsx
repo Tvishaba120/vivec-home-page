@@ -10,7 +10,7 @@ export function HowToStudy() {
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-12">
           <div className="text-brand-green text-sm font-bold tracking-widest mb-3">THERE ARE MANY WAYS TO LEARN</div>
-          <h2 className="text-4xl md:text-5xl font-extrabold text-brand-text">HOW DO YOU WANT TO STUDY?</h2>
+          <h2 className="text-3xl md:text-5xl font-bold uppercase" style={{ color: "#0F2942" }}>HOW DO YOU WANT TO STUDY?</h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {items.map((it) => (

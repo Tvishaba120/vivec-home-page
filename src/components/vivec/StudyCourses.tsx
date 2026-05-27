@@ -13,7 +13,7 @@ export function StudyCourses() {
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-12">
           <div className="text-brand-green text-sm font-bold tracking-widest mb-3">UNIQUE FEATURES OF OUR PROGRAMS</div>
-          <h2 className="text-4xl md:text-5xl font-extrabold text-brand-text">WHAT DO YOU WANT TO STUDY?</h2>
+          <h2 className="text-3xl md:text-5xl font-bold uppercase" style={{ color: "#0F2942" }}>WHAT DO YOU WANT TO STUDY?</h2>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {courses.map((c) => (
