@@ -1,15 +1,6 @@
 {
-    "builds": [
-        {
-            "src": "package.json",
-            "use": "@vercel/node"
-        }
-    ],
-    "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "/"
-        }
-    ],
-    "framework": "vite"
+    "version": 2,
+    "framework": null,
+    "installCommand": "npm install",
+    "buildCommand": "npm run build"
 }
