@@ -3,11 +3,12 @@ import { Mail, Phone, User, Search, Menu, X, ChevronDown } from "lucide-react";
 import logo from "@/assets/vivec-logo.png";
 
 const navLinks = [
-  { label: "Home", href: "#", hasMenu: false },
+  { label: "Home", href: "#home", hasMenu: false },
   { label: "About Us", href: "#about", hasMenu: true },
   { label: "Programs", href: "#programs", hasMenu: true },
   { label: "Admissions", href: "#admissions", hasMenu: false },
   { label: "Resources", href: "#resources", hasMenu: true },
+  { label: "Stories", href: "#stories", hasMenu: false },
   { label: "Contact Us", href: "#contact", hasMenu: false },
 ];
 

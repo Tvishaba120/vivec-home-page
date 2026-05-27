@@ -14,6 +14,7 @@ const divider = "1px solid rgba(42, 67, 86, 0.2)";
 export function FeaturesGrid() {
   return (
     <section
+      id="resources"
       className="py-20"
       style={{ background: "#F3F6F8", borderBottom: divider, color: "#2A4356" }}
     >

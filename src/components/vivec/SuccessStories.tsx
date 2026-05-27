@@ -12,7 +12,7 @@ const photos = [
 
 export function SuccessStories() {
   return (
-    <section className="py-20 bg-white">
+    <section id="stories" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-12">
           <div className="text-brand-green text-sm font-semibold tracking-widest mb-3 uppercase">OUR CAMPUS HAS A LOT TO OFFER FOR OUR STUDENTS</div>

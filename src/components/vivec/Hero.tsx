@@ -29,7 +29,7 @@ export function Hero() {
   }, []);
   const s = slides[i];
   return (
-    <section className="relative h-[500px] md:h-[600px] overflow-hidden">
+    <section id="home" className="relative min-h-[500px] md:h-[650px] flex items-center bg-black overflow-hidden">
       {slides.map((sl, idx) => (
         <div
           key={idx}
