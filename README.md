@@ -1,53 +1,53 @@
-# VIVEC — Vivekanand Institute of Vocational and Entrepreneurial Competence
+# Junior React Developer Assignment
+**Candidate:** Tvisha Mori  
+**Role:** Junior Web Developer, Aadharshila Brand Solutions  
 
-A fully responsive web application built for the Aadharshila Junior Web Developer assignment. This project recreates the UI sections from the provided Figma design using React and modern web technologies.
+This repository contains the VIVEC institute homepage recreated from the provided Figma design file. The project focuses on responsive design, modern UI components, and clean component architecture.
+
+## Live Demo
+* **Live Deployment:** [https://vivec-home-page.vercel.app](https://vivec-home-page.vercel.app)
 
 ## Tech Stack
-- **Framework**: React 19 / TanStack Start
-- **Routing**: TanStack Router
-- **Styling**: Tailwind CSS 4
-- **Icons**: Lucide React
-- **Images**: Unsplash (Dynamic assets) & Local Logos
+* **Framework:** React + Vite
+* **Styling:** Tailwind CSS
+* **Icons:** Custom SVGs and Lucide-React
+* **Deployment:** Vercel
 
-## Features
-- **Responsive Navigation**: Full-screen mobile menu and desktop dropdowns.
-- **Hero Slider**: Auto-scrolling hero section with prominent Call-to-Action.
-- **Alumni Showcase**: Moving marquee of corporate partners in a stylized grid.
-- **Course Catalog**: Interactive grid showcasing various vocational programs.
-- **Newsletter Footer**: Customized subscription area and social links.
+## Key Implementations
+* **Pixel-perfect Hero Section:** Used custom gradients and layout alignment to accurately reproduce the Figma overlays and CTA configurations.
+* **Component-based Architecture:** Separated different homepage sections into modular components (`Hero.tsx`, `HeroCtaCards.tsx`, `Footer.tsx` etc) for readability.
+* **Responsive Layout:** Ensured that layout flows elegantly from mobile, tablet, to desktop displays utilizing CSS Grid and Flexbox layout models.
+* **Clean SVGs:** Integrated strict Figma vectors as inline SVG custom components to reproduce specialized branding where standard icon libraries weren't enough.
 
 ## Setup Instructions
 
-### Prerequisites
-- Node.js (v22 or higher recommended)
-- npm
+If you wish to review the codebase locally, follow these steps:
 
-### Installation
-1. Clone the repository or download the source code.
-2. Open the terminal in the project directory.
-3. Install dependencies:
+1. **Clone the repository**
+   ```bash
+   git clone <your-repo-link>
+   cd vivec-homepage
+   ```
+
+2. **Install dependencies**
    ```bash
    npm install
    ```
 
-### Running Locally
-To start the development server:
-```bash
-npm run dev
-```
-The app will be available at `http://localhost:5173`.
+3. **Run the development server**
+   ```bash
+   npm run dev
+   ```
+   The local environment will be accessible at `http://localhost:5173`.
 
-### Building for Production
-To create a production build:
-```bash
-npm run build
-```
+4. **Build for production**
+   ```bash
+   npm run build
+   ```
 
-## Deployment Recommendations
-This project is ready for deployment on **Netlify** or **Vercel**.
-- **Build Command**: `npm run build`
-- **Output Directory**: `dist/client`
+## Contact
+Please let me know if you need any additional assets or if you have any questions regarding the codebase architecture.
 
 ---
-**Candidate Name**: Tvisha Mori  
-**Assignment**: Junior Web Developer Role - Aadharshila Brand Solutions
+*Developed by Tvisha Mori*
+
